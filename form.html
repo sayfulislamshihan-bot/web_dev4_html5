@@ -4,28 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitha Ghor</title>
+    <style>
+        form .basic-info label{
+            display:block;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
     <header>
-
+        
     </header>
     <main>
 
         <section>
-            <header>Jamal mother Pitha Ghor</header>
-            <form>
+            <h2>Jamal Mother Pitha Ghar</h2>
+            <div>
+                <form>
+                    
+                    <fieldset class="basic-info">
+                       <legend>Basic info</legend>
+                       <label for="name">Your name</label>
+                       <input type="text" name="" id="name">
+                    
+                       <label for="email">Your Email</label>
+                       <input type="text" name="" id="email">
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Pitha info</legend>
+                        <input type="radio" name="pitha" id="chitoy">
+                        <label for="chitoy">Chitoy</label>
 
-                <label for="name">Your Name</label>
-                <input type="text" name="" id="name">
+                        <input type="radio" name="pitha" id="bhapa">
+                        <label for="bhapa">Bhapa</label>
 
-                <label for="email">Your email address</label>
-                <input type="email" name="" id="email">
-
-
-            </form>
+                        <input type="radio" name="pitha" id="dalpuri">
+                        <label for="dalpuri">Dal Puri</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Vorta selection</legend>
+                        <input type="checkbox" name="vorta" id="sorisa">
+                        <label for="sorisa">Sorisa</label>
+                          
+                        <input type="checkbox" name="vorta" id="sotki">
+                        <label for="sotki">Shotki</label>
+                        
+                        <input type="checkbox" name="vorta" id="morich">
+                        <label for="morich">Morich</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Extra Info</legend>
+                        <textarea cols="10" rows="5" name="" id=""></textarea>
+                    </fieldset>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                    
+                </form>
+            </div>
         </section>
-
-
     </main>
     <footer>
 
