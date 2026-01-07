@@ -1,0 +1,38 @@
+.card-section{
+    max-width: 1100px;
+    margin:0 auto;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 200px;
+    background-color:olivedrab;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px black;     /* right bottom intensity color */
+    text-align: left;
+ }
+ .card1 img{
+    width: 100px;
+    border-radius: 10px;
+}
+.card1 p{
+    font-size: 1.15em;
+    font-family: sans-serif;
+}
+.card1 button{
+    background-color: chartreuse;
+    padding: 20px 10px;
+    font-size: 1.25em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.card1:hover{
+    background-color: aqua;
+}
